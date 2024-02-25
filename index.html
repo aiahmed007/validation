@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"/>
+    <style>
+        .success, .error {
+            color: white;
+            padding: 5px;
+            margin: 5px 0 15px 0;
+        }
+        .success {
+            background: green;
+        }
+        .error {
+            background: red;
+        }
+    </style>
+    <title>Validity Check</title>
+</head>
+<body>
+    <div class="main container">
+        <h3>Please select the validity type from the drop down list</h3>
+        <form action="" id="check">
+            <label for="validity">Choose a validity type:</label>
+            <select name="validity" id="option">
+              <option value="email">Email</option>
+              <option value="phone">Phone Number</option>
+              <option value="post">Post Code</option>
+            </select>
+            <br><br>
+            <input type="text" id="text">
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="container">
+        <p id="output">
+
+        </p>>
+    </div>>
+    <script src="script.js"></script>    
+    
+</body>
+</html>
